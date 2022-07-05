@@ -22,4 +22,7 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 
+app.UseOpenApi();
+app.UseSwaggerUi3();
+
 app.Run();
